@@ -39,3 +39,11 @@ body{
 	background: #FFF;
 	margin: 5rem 0 5rem 5rem;
 }
+main{
+	margin: 10rem 15rem 10rem 20rem;
+	padding: 2rem;
+	color: white;
+	background: #7180ac;
+	position: absolute;
+	border-radius: 7px;
+}
