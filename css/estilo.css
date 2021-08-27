@@ -4,36 +4,38 @@
 }
 a{
 	text-decoration: none;
-	color: #000;
+	color: #FFF;
 }
 body{
 	font-family: arial;
 }
-ul{
-	list-style: none;
+.corpo{
+	background: #f1f7f9;
 }
-nav ul li{
-	width: 100%;
-	height: 30px;
-}
-nav ul li a{
-	text-decoration: none;
-	color: #FFF;
-	padding: 10px 50px 10px 5px;
-	margin: 10px;
-}
-nav ul li img{
-	border-radius: 100%;
-	background: black;
-	width: 150px;
-	height: 150px;
-}
-nav ul li:hover{
-	background: #476072;
-	color: #FFF;
-}
-nav{
-	background: #548CA8;
-	width: 300px;
+.menu{
+	background: #7180ac;
+	width: 14rem;
 	height: 100%;
+	position: fixed;
+	box-shadow: 3px 3px 3px rgba(113,128,172,0.5);
+}
+.link{
+	color: #FFF;
+	padding: 20px;
+	background: #53628d;
+	cursor: pointer;
+	transition: all .1s;
+	font-size: 13pt;
+}
+.link:hover{
+	background: #445174;
+	transition: all .2s;
+}
+.perfil img{
+	border-radius: 100%;
+	width: 175px;
+	height: 175px;
+	padding: 5px;
+	background: #FFF;
+	margin: 5rem 0 5rem 5rem;
 }
