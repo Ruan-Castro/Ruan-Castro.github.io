@@ -40,8 +40,10 @@ body{
 	margin: 5rem 0 5rem 5rem;
 }
 main{
-	margin: 10rem 15rem 10rem 20rem;
+	margin: 8rem 15rem 10rem 17rem;
 	padding: 2rem;
+	min-width: 500px;
+	display: inline-block;
 	color: white;
 	background: #53628d;/* 7180ac */
 	position: absolute;
