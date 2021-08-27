@@ -48,4 +48,5 @@ main{
 	background: #53628d;/* 7180ac */
 	position: absolute;
 	border-radius: 7px;
+	box-shadow: 3px 3px 3px rgba(113,128,172,0.5);
 }
